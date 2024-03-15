@@ -15,7 +15,7 @@ argparser.add_argument('--batch_size', type=int, default=2, help='batch size')
 argparser.add_argument('--num_workers', type=int, default=0, help='number of workers')
 
 # Data
-argparser.add_argument('--dataset_root', type=str, default='/data_path/AE2/AE2_data', help='dataset root')
+argparser.add_argument('--dataset_root', type=str, default='/home/enes/projects/AE2/AE2_data', help='dataset root')
 argparser.add_argument('--dataset', type=str, default='break_eggs', help='dataset name')
 argparser.add_argument('--view1', type=str, default='ego', help='view 1')
 argparser.add_argument('--view2', type=str, default='exo', help='view 2 (can be same as view 1)')
